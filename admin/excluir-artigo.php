@@ -7,7 +7,7 @@
         $artigo = new Artigo($mysql);
         $artigo->excluirArtigo($_POST['id']);
 
-        redireciona('index.php');
+        redireciona('../admin/index.php');
     }
 
 
